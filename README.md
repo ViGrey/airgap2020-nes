@@ -12,7 +12,7 @@ Also be aware that messages deleted by moderators in the course of the conferenc
 
 The Twitch chat data in its entirety can be found in `src/twitchchat/ntsc.txt` and `src/twitchchat/pal.txt`.  There is some strange formatting to represent wait time before posting the next message and splits for word/line wrapped text, but the Twitch chat data can be found there.
 
-There is also no guarantee that all of the Twitch chat data.  There is the chance that bot used for logging Twitch chat data may have had networking issues at some point throughout the conference.
+There is also no guarantee that all of the Twitch chat data is in this ROM.  There is the chance that bot used for logging Twitch chat data may have had networking issues at some point throughout the conference.
 
 ------
 
@@ -23,6 +23,8 @@ _**The AirGap2020 Commemorative NES ROM was created by Vi Grey (https://vigrey.c
 ### Description:
 
 This is an MMC1 SLROM (256KB PRG, 128KB CHR) commemorative NES ROM for the AirGap2020 digital conference, which occurred on May 2nd, 2020, that contains the event's talk schedule and the entire 11 hours of Twitch Chat data that plays back in 1:1 time (have fun waiting the entire time for the last message to appear...)
+
+This ROM will run with correct 1:1 timing in **NTSC**, **PAL**, and **Dendy** (the Famicom knock-off sold in Russia) regions, so running this ROM on an Everdrive NES flash cartridge should work fine in your region.
 
 ------
 
